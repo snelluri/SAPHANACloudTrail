@@ -1,0 +1,30 @@
+Account details:
+https://account.hanatrial.ondemand.com/
+User name: Mygmail
+
+Create the new Database/Schema:
+Link: https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/ef74e136dcdd40ff94337036b67f7fcc.html
+
+DatabaseID: sivrealtime
+DataBase system: HANA MDC(<trial>)
+System user Password: SivaRealTime1!@
+Shine user: sivamdcshine
+Password: SivaRealTime1!@
+WebAccess ON
+DP Server ON (Data provisioning Server)
+
+Details
+Type:DatabaseDatabase System:
+HANA MDC (<trial>)
+Version:1.00.122.08.1490178281Bindings:0 availableJDBC URL:jdbc:sap://vadbizp.nwtrial.od.sap.biz:30110/:Administration Tools:
+SAP HANA Cockpit
+Development Tools:
+SAP HANA Web-Based Development Workbench
+Education Tools:SAP HANA Interactive Education (SHINE)
+
+Configuration
+Web Access:Status:ENABLEDXS Engine:Status:EMBEDDEDIndex Server:Script Server:Status:DISABLEDDP Server:Status:ENABLED
+
+You specify a password for the SYSTEM user when your create your SAP HANA tenant database. You use the SYSTEM user to log on to SAP HANA cockpit and create your own database administration user.
+
+The SYSTEM user is a preconfigured database superuser with irrevocable system privileges, such as the ability to create other database users, access system tables, and so on. A database-specific SYSTEM user exists in every database of a tenant database system. To ensure that the administration tool SAP HANA cockpit can be used immediately after database creation, the SYSTEM user is automatically given several roles the first time the SAP HANA cockpit is opened with this user.
