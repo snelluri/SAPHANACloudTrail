@@ -1,0 +1,9 @@
+Required Roles
+Before you start using the SAP HANA Web-based Development Workbench, the SAP HANA administrator must set up a user account for you in the database and assign the developer roles you require for the specific tools:
+
+Tool	        Description	                                                                  Required Role
+Editor	Inspect, create, change, delete and activate SAP HANA repository objects	          sap.hana.ide.roles::EditorDeveloper
+Debug       server-side JavaScript code	                                                    sap.hana.xs.debugger::Debugger
+Catalog	Create, edit, execute and manage SQL catalog artifacts in the SAP HANA database	    sap.hana.ide.roles::CatalogDeveloper
+Security	Create users and user roles	                                                      sap.hana.ide.roles::SecurityAdmin
+Traces	View and download SAP HANA trace files and set trace levels	                        sap.hana.ide.roles::TraceViewer
